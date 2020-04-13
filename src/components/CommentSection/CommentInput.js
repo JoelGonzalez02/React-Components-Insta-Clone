@@ -1,4 +1,3 @@
-// You do not need to do anything in this file
 import React from 'react';
 
 const CommentInput = props => {

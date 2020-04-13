@@ -1,6 +1,6 @@
 .comment-text {
   text-align: left;
-  padding: 2px;
+  padding: 5px;
   margin-left: 4px;
 }
 .comment {
@@ -11,7 +11,7 @@
   width: 100%;
 }
 .comment-form input {
-  width: 100%;
+  width: 95%;
   font-size: 14px;
   padding: 10px;
   border: none;
@@ -22,5 +22,12 @@
   font-size: 14px;
   margin-left: 5px;
   color: black;
+  font-weight: bold;
+}
+
+.time-stamp {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 15px;
   font-weight: bold;
 }
