@@ -2,24 +2,47 @@
   border-bottom: 1px solid #3333;
   height: 60px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background: #ffffff;
 }
 .search-form {
   width: 150px;
   font-size: 14px;
+  margin-right: 80px;
 }
 .search-form input {
   text-align: center;
   color: #262626;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
 }
 .image-wrapper {
   height: 50px;
+  display: flex;
+  align-items: center;
 }
 
-.logo-image {
-  height: 100%;
+.iconMain {
+  font-size: 28px;
+  border-right: 1px solid black;
+  padding-right: 20px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.logoText {
+  font-family: 'Oleo Script', cursive;
+  font-size: 28px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.customIcons {
+  font-size: 28px;
+  cursor: pointer;
 }
 
 .social-wrapper {
